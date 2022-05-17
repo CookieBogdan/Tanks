@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tanks.v2.Models.Bullet">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYAAggAAAABAAAAAAAAAAAAAAAAAAAABYAQ=</HashCode>
+      <FileName>Models\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks.v2.Models.EvilTank">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Evil_tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks.v2.Models.Game">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAAAAAAAAAAAAAABAAEAAAAAAgAA=</HashCode>
+      <FileName>Models\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks.v2.Models.Tank">
+    <Position X="6.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks.v2.Models.Tanks">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYAAhgAgAAAIAAAAgAAAAAABAAAAAAAAYAQ=</HashCode>
+      <FileName>Models\Tanks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks.v2.GameField">
+    <Position X="3.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ICAgBIAKBAAAQgAFABACAEESAABAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>GameField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks.v2.Program">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Tanks.v2.Enums.LandscapeType">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAABQAAAAAAgAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enums\LandscapeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tanks.v2.Models.OrientationType">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Models\OrientationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pDEx7Jbh0YOkx9PbiwBcNeuTLDmkGmnNMtXiwYLcxnmlH01i//0KFwtIT2eCeb/o1nVCxHG0+AdrhNtATJrz8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\tanks.v2\\Tanks.v2\\Tanks.v2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

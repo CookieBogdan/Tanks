@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Tanks.v2</RootNamespace>
+    <AssemblyName>Tanks.v2</AssemblyName>
+    <Version>1.0.6</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <None Remove="Images\brick.png" />
+    <None Remove="Images\brick1.png" />
+    <None Remove="Images\brick2.png" />
+    <None Remove="Images\brick3.png" />
+    <None Remove="Images\bullet.png" />
+    <None Remove="Images\base.png" />
+    <None Remove="Images\concrete.png" />
+    <None Remove="Images\none.png" />
+    <None Remove="Images\settings.png" />
+    <None Remove="Images\settings_hover.png" />
+    <None Remove="Images\eviltank.png" />
+    <None Remove="Images\forest.png" />
+    <None Remove="Images\explosion.png" />
+    <None Remove="Images\tank.png" />
+    <None Remove="Images\heart_bonus.png" />
+    <None Remove="Images\speed_bonus.png" />
+    <None Remove="Images\kill_bonus.png" />
+    <None Remove="Images\bullet_bonus.png" />
+    <None Remove="Images\water.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="WMPLib.dll">
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\brick.png" />
+    <EmbeddedResource Include="Images\brick1.png" />
+    <EmbeddedResource Include="Images\brick2.png" />
+    <EmbeddedResource Include="Images\brick3.png" />
+    <EmbeddedResource Include="Images\bullet.png" />
+    <EmbeddedResource Include="Images\settings.png" />
+    <EmbeddedResource Include="Images\settings_hover.png" />
+    <EmbeddedResource Include="Images\base.png" />
+    <EmbeddedResource Include="Images\concrete.png" />
+    <EmbeddedResource Include="Images\none.png" />
+    <EmbeddedResource Include="Images\eviltank.png" />
+    <EmbeddedResource Include="Images\forest.png" />
+    <EmbeddedResource Include="Images\explosion.png" />
+    <EmbeddedResource Include="Images\tank.png" />
+    <EmbeddedResource Include="Images\heart_bonus.png" />
+    <EmbeddedResource Include="Images\speed_bonus.png" />
+    <EmbeddedResource Include="Images\kill_bonus.png" />
+    <EmbeddedResource Include="Images\bullet_bonus.png" />
+    <EmbeddedResource Include="Images\water.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Sounds\explosion.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Sounds\gameover.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Sounds\shoot.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Sounds\spawn.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Sounds\take.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
